@@ -1,4 +1,3 @@
-
 public class NVQuanLy extends NhanVien implements LoaiNhanVien{
     @Override
     public void ChucVu()
