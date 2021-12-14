@@ -1,10 +1,5 @@
 import java.util.Scanner;
 
-interface LoaiNhanVien
-{
-    void ChucVu();
-    void Luong();
-}
 public class NVBanHang extends NhanVien implements LoaiNhanVien{
     Scanner sc=new Scanner(System.in);
     @Override
